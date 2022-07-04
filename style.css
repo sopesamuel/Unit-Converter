@@ -1,27 +1,91 @@
 body{
- 
+ background-color: black;
 text-align: center;
 }
 #container{
     background: #1F2937;
     width: 550px;
-    height: 550px;
+    height: 600px;
     margin: auto;
     padding: 50px;
 }
 #container1{
     color: white;
     width: 650px;
-    height: 200px;
+    height: 250px;
     margin: -50px;
     padding: 0.1px;
     background: #6943FF;
 
 }
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: -100px;
+    color: #CCC1FF;
+    padding: 20px;
+}
 
-#container3{
+#rectangle{
     width: 117px;
-    height: 50px;
-    color: yellow;
-    border-radius: 5px solid green;
+    height: 73px;
+    margin-left: -10px;
+    padding: 1px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+}
+button{
+    background-color: white;
+    width: 137px;
+    height: 52px;
+    border-radius: 5px;
+    border: white;
+    margin-left: -8px;
+    margin-top: 20px;
+}
+#container2{
+width: 550px;
+height: 120px;
+background-color: #273549;
+margin: 50px;
+}
+#container3{
+    width: 550px;
+    height: 120px;
+    background-color: #273549;
+    
+    margin: 50px;
+    margin-top: -30px;
+    }
+    #container4{
+        width: 550px;
+        height: 120px;
+        background-color: #273549;
+        margin-top: -30px;
+        margin-left: 50px;
+        }
+#first{
+    margin-top: -15px;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+#second{
+    margin-top: -15px;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+#third{
+    margin-top: -15px;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
 }
